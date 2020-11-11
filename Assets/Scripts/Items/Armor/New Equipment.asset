@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a189d25f4176e4084b859b082a6a74e9, type: 3}
+  m_Name: New Equipment
+  m_EditorClassIdentifier: 
+  name: New Item
+  icon: {fileID: 0}
+  equipmentSlot: 0
+  isDefault: 0
+  statModType: 0
+  damageType: 2
+  healthType: 0
+  armorType: 1
+  damage: 0
+  health: 0
+  armor: 0
+  description: 
+  goldCost: 0
+  modifiers:
+  - statType: 0
+    type: 0
+    value: 0
+  - statType: 0
+    type: 0
+    value: 0
+  - statType: 0
+    type: 0
+    value: 0

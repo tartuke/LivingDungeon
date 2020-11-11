@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01d3a0d93cacd4eefab3da7645c33532, type: 3}
+  m_Name: Armor Relic
+  m_EditorClassIdentifier: 
+  name: Armor Relic
+  icon: {fileID: -275098201550484739, guid: dd7f3a1ad8b4f4446b64164dcb0b6b64, type: 3}
+  equipmentSlot: 4
+  isDefault: 0
+  statModType: 0
+  damageType: 2
+  healthType: 0
+  armorType: 1
+  damage: 0
+  health: 0
+  armor: 10
+  description: 'Armor Relic: Armor + 10 Cost: 50g'
+  goldCost: 50

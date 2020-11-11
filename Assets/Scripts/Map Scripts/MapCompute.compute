@@ -1,0 +1,83 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMap
+#pragma kernel CSTileCode
+#pragma kernel CSPDis
+
+struct TileData
+{
+    int map;
+    int tilecode;
+    float baseValue;
+    float value;
+    float pDis;
+    float minPDis;
+};
+
+int width;
+int height;
+float thresholdWall;
+float thresholdFloor;
+int pX;
+int pY;
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+RWStructuredBuffer<TileData> tileData;
+
+[numthreads(64,1,1)]
+void CSMap (uint3 id : SV_DispatchThreadID)
+{
+    // TODO: insert actual code here!
+
+    tileData[id.x].map = (tileData[id.x].value > thresholdWall) ? 1 : (tileData[id.x].value > thresholdFloor) ? 0 : -1;
+}
+
+
+[numthreads(64,1,1)]
+void CSTileCode (uint3 id : SV_DispatchThreadID)
+{
+    // TODO: insert actual code here!
+
+    int x = id.x%width;
+    int y = id.x/width;
+
+    if (x == width -1 || x == 0 || y == height -1 || y == 0)
+        return;
+
+    tileData[id.x].tilecode = 0;
+
+
+    tileData[id.x].tilecode += (tileData[(x)      + (y + 1) * width].map == tileData[id.x].map) ? 1: 0;
+    tileData[id.x].tilecode += (tileData[(x + 1)  + (y)     * width].map == tileData[id.x].map) ? 2: 0;
+    tileData[id.x].tilecode += (tileData[(x)      + (y - 1) * width].map == tileData[id.x].map) ? 4: 0;
+    tileData[id.x].tilecode += (tileData[(x - 1)  + (y)     * width].map == tileData[id.x].map) ? 8: 0;
+    tileData[id.x].tilecode += (tileData[(x + 1)  + (y + 1) * width].map == tileData[id.x].map) ? 16: 0;
+    tileData[id.x].tilecode += (tileData[(x + 1)  + (y - 1) * width].map == tileData[id.x].map) ? 32: 0;
+    tileData[id.x].tilecode += (tileData[(x - 1)  + (y - 1) * width].map == tileData[id.x].map) ? 64: 0;
+    tileData[id.x].tilecode += (tileData[(x - 1)  + (y + 1) * width].map == tileData[id.x].map) ? 128: 0;
+}
+
+
+[numthreads(64,1,1)]
+void CSPDis (uint3 id : SV_DispatchThreadID)
+{
+    // TODO: insert actual code here!
+
+    int x = id.x%width;
+    int y = id.x/width;
+
+    if (x == width -1 || x == 0 || y == height -1 || y == 0)
+        return;
+
+    tileData[id.x].tilecode = 0;
+
+
+    tileData[id.x].tilecode += (tileData[(x)      + (y + 1) * width].map == tileData[id.x].map) ? 1: 0;
+    tileData[id.x].tilecode += (tileData[(x + 1)  + (y)     * width].map == tileData[id.x].map) ? 2: 0;
+    tileData[id.x].tilecode += (tileData[(x)      + (y - 1) * width].map == tileData[id.x].map) ? 4: 0;
+    tileData[id.x].tilecode += (tileData[(x - 1)  + (y)     * width].map == tileData[id.x].map) ? 8: 0;
+    tileData[id.x].tilecode += (tileData[(x + 1)  + (y + 1) * width].map == tileData[id.x].map) ? 16: 0;
+    tileData[id.x].tilecode += (tileData[(x + 1)  + (y - 1) * width].map == tileData[id.x].map) ? 32: 0;
+    tileData[id.x].tilecode += (tileData[(x - 1)  + (y - 1) * width].map == tileData[id.x].map) ? 64: 0;
+    tileData[id.x].tilecode += (tileData[(x - 1)  + (y + 1) * width].map == tileData[id.x].map) ? 128: 0;
+}

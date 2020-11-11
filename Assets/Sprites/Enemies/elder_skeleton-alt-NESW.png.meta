@@ -1,0 +1,431 @@
+fileFormatVersion: 2
+guid: 9d49f03ce1360664aabaef2815717edc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1762066526879755778
+    second: elder_skeleton-alt-NESW_0
+  - first:
+      213: -4797124235257162587
+    second: elder_skeleton-alt-NESW_1
+  - first:
+      213: -5801914979248866836
+    second: elder_skeleton-alt-NESW_2
+  - first:
+      213: -8545404834914110848
+    second: elder_skeleton-alt-NESW_3
+  - first:
+      213: 954626442074248911
+    second: elder_skeleton-alt-NESW_4
+  - first:
+      213: -3538964853854839392
+    second: elder_skeleton-alt-NESW_5
+  - first:
+      213: 8276761149057561768
+    second: elder_skeleton-alt-NESW_6
+  - first:
+      213: 4216113635288825207
+    second: elder_skeleton-alt-NESW_7
+  - first:
+      213: -8351607952287408217
+    second: elder_skeleton-alt-NESW_8
+  - first:
+      213: -79068792660565184
+    second: elder_skeleton-alt-NESW_9
+  - first:
+      213: -3438132251057530766
+    second: elder_skeleton-alt-NESW_10
+  - first:
+      213: 2111306731333124415
+    second: elder_skeleton-alt-NESW_11
+  - first:
+      213: -6711295284514851645
+    second: elder_skeleton-alt-NESW_12
+  - first:
+      213: 2593713220408135101
+    second: elder_skeleton-alt-NESW_13
+  - first:
+      213: 5182490998030032170
+    second: elder_skeleton-alt-NESW_14
+  - first:
+      213: 1926398885548803928
+    second: elder_skeleton-alt-NESW_15
+  - first:
+      213: 5238104529871803873
+    second: elder_skeleton-alt-NESW_16
+  - first:
+      213: 1460678957142935894
+    second: elder_skeleton-alt-NESW_17
+  - first:
+      213: 719248813735328739
+    second: elder_skeleton-alt-NESW_18
+  - first:
+      213: -8369052706185598811
+    second: elder_skeleton-alt-NESW_19
+  - first:
+      213: -701056421492231901
+    second: elder_skeleton-alt-NESW_20
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: elder_skeleton-alt-NESW_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 192
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1d9b264d1eb87e0800000000000000
+      internalID: -1762066526879755778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elder_skeleton-alt-NESW_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 194
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4541e9ce03d6db0800000000000000
+      internalID: -4797124235257162587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elder_skeleton-alt-NESW_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 192
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce97ad4f0157b7fa0800000000000000
+      internalID: -5801914979248866836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elder_skeleton-alt-NESW_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 128
+        width: 26
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082f901049f986980800000000000000
+      internalID: -8545404834914110848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elder_skeleton-alt-NESW_4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 130
+        width: 26
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6d705f0b38f3d00800000000000000
+      internalID: 954626442074248911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elder_skeleton-alt-NESW_5
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 128
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0add365373213eec0800000000000000
+      internalID: -3538964853854839392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elder_skeleton-alt-NESW_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 64
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a47454b966fcd270800000000000000
+      internalID: 8276761149057561768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elder_skeleton-alt-NESW_7
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 66
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d321c6305a28a30800000000000000
+      internalID: 4216113635288825207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elder_skeleton-alt-NESW_8
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 64
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afd49ce0d0291c80800000000000000
+      internalID: -8351607952287408217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elder_skeleton-alt-NESW_9
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043e5ac1a5717eef0800000000000000
+      internalID: -79068792660565184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elder_skeleton-alt-NESW_10
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 2
+        width: 26
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278d6e40fec4940d0800000000000000
+      internalID: -3438132251057530766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elder_skeleton-alt-NESW_11
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 0
+        width: 26
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f318005394edc4d10800000000000000
+      internalID: 2111306731333124415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54c93c55b60bde84abc63becc719924e, type: 3}
+  m_Name: SlimeAttack
+  m_EditorClassIdentifier: 
+  sweepAngle: 90
+  damage: 20
+  castDelay: 0
+  lifeTime: 0.1
+  prefab: {fileID: 3979866445554950011, guid: 6a2489d75db19ba48b07f71c162a07b1, type: 3}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f394ebb7fd8e841fcbec780ee100ddfd, type: 3}
+  m_Name: TileManager
+  m_EditorClassIdentifier: 
+  stepSize: 0.15
+  seed: 5
+  totalRange: 10
+  Tilemaps:
+  - Floor
+  - Walls
+  - Holes
+  tiles:
+  - {fileID: 11400000, guid: 4c3f965be9f56419d9157a0374559eeb, type: 2}
+  - {fileID: 11400000, guid: b8a18ee6877dc4667bb596c97206a386, type: 2}
+  - {fileID: 11400000, guid: b8a18ee6877dc4667bb596c97206a386, type: 2}
+  range:
+  - 5
+  - 5

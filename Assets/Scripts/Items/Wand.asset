@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 882e17eec33d54f6ca52fb7f30a5cd50, type: 3}
+  m_Name: Wand
+  m_EditorClassIdentifier: 
+  name: Wand
+  icon: {fileID: 3944896418905456577, guid: 515af372c277f4e5999bf5ac197ba3cb, type: 3}
+  equipmentSlot: 0
+  isDefault: 0
+  statModType: 0
+  damageType: 2
+  healthType: 0
+  armorType: 1
+  damage: 0
+  health: 0
+  armor: 0
+  description: Equipment type = WEAPON Damage Increase = 0 Health Increase = 0 Armor
+    Increase = 0
+  maxMana: 100
+  mana: 90
+  manaRegen: 10
+  baseCastDelay: 0.5
+  spells:
+  - {fileID: 11400000, guid: 002be3aab79414b9693293833df2deff, type: 2}
+  - {fileID: 11400000, guid: 4fec05135b94b438bb89b60e9f826188, type: 2}
+  nextSpellIndex: 1
